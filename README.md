@@ -22,15 +22,27 @@ This helps visualize how the regression tree learns non-linear relationships wit
 
 Data Generation
 Synthetic dataset created using NumPy random functions.
+
 Data Visualization
+
 Scatter plot to visualize input-target relationship.
+
 Model Building
+
 Implemented Decision Tree Regression using sklearn.tree.DecisionTreeRegressor.
+
 Training
+
 Fit the model on generated data.
+
 Prediction & Visualization
+
 Compared predictions for various tree depths (e.g., depth=2, depth=3, etc.).
+
 Visualized predicted vs actual data using Matplotlib.
+
 Interpretation
+
 Showed how increasing tree depth improves fit but risks overfitting.
+
 Illustrated the bias-variance trade-off.
